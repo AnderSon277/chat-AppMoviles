@@ -62,8 +62,8 @@ export class LoginPage implements OnInit {
     this.router.navigateByUrl('/register', { replaceUrl: true });
   }
 
-  forgotPassword(){
-    this.router.navigateByUrl('/forgot-password', { replaceUrl: true });
+  recoverPassword(){
+    this.router.navigateByUrl('/recover-password', { replaceUrl: true });
   }
 
   private checkUserIsVerified(user) {
