@@ -10,6 +10,10 @@ const routes: Routes = [
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
   },
+  {
+    path: 'verification-email',
+    loadChildren: () => import('./pages/verification-email/verification-email.module').then( m => m.VerificationEmailPageModule)
+  },
 ];
 
 @NgModule({
