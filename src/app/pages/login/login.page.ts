@@ -68,7 +68,8 @@ export class LoginPage implements OnInit {
 
   private checkUserIsVerified(user) {
     if (user && user.emailVerified) {
-      this.router.navigateByUrl('/chat', { replaceUrl: true });
+      this.router.navigateByUrl('/photo', { replaceUrl: true });
+      
     } else if (user){
       this.router.navigateByUrl('/verification-email', { replaceUrl: true });
     } else{
