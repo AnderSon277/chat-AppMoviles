@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pruebaappmoviles": {
+      "hosting": {
+        "app": [
+          "pruebaappmoviles"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pruebaappmoviles"
+  }
+}
