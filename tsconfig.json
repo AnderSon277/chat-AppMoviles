@@ -24,6 +24,7 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
     "skipLibCheck": true,
-    "preserveSymlinks": true
+    "preserveSymlinks": true,
+    "allowSyntheticDefaultImports": true
   }
 }
