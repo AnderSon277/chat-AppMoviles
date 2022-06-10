@@ -4,16 +4,16 @@
 
 export const environment = {
   firebase: {
-    projectId: 'pruebaappmoviles',
-    appId: '1:914447112451:web:14c2e3de1db3fbb5817136',
-    storageBucket: 'pruebaappmoviles.appspot.com',
-    locationId: 'us-central',
-    apiKey: 'AIzaSyBp98xrU8EdydvSHbbWrvR7MW3YTVf485U',
-    authDomain: 'pruebaappmoviles.firebaseapp.com',
-    messagingSenderId: '914447112451',
-    measurementId: 'G-6RN5F1FKZ5',
+    apiKey: 'AIzaSyA5jZfl-YVGOqigE1ttebdUUc71WmWzl7w',
+    authDomain: 'app1-42099.firebaseapp.com',
+    databaseURL: 'https://app1-42099-default-rtdb.firebaseio.com',
+    projectId: 'app1-42099',
+    storageBucket: 'app1-42099.appspot.com',
+    messagingSenderId: '590157944280',
+    appId: '1:590157944280:web:36d271f30396daba300ead',
+    measurementId: 'G-QWQ7EXH1WJ',
   },
-  production: false
+  production: false,
 };
 
 /*
